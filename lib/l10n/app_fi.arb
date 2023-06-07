@@ -1,0 +1,13 @@
+{
+  "appTitle": "Aero Cast",
+  "dailySummary": "Päivittäinen yhteenveto",
+  "forcast": "Ennuste",
+  "background": "Tausta",
+  "wind": "Tuuli",
+  "humidity": "Kosteus",
+  "visibility": "Näkyvyys",
+  "temperatureText": "Nyt se tuntuu {feelsLike}°, itse asiassa {temp}°. \nLämpötila tuntuu välillä {tempMin}° - {tempMax}°.",
+  "@appTitle": {
+    "description": "Weather appi"
+  }
+}

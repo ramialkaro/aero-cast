@@ -1,0 +1,13 @@
+{
+  "appTitle": "Aero Cast",
+  "dailySummary": "Daily summary",
+  "forcast": "Forcast",
+  "background": "Background",
+  "wind": "Wind",
+  "humidity":"Humidity",
+  "visibility": "Visibility",
+  "temperatureText": "Now it feels like {feelsLike}°, actually {temp}°. \nThe temperature is felt in the range from {tempMin}° to {tempMax}°.",
+  "@appTitle": {
+    "description": "Weather application"
+  }
+}
