@@ -27,25 +27,25 @@ class WeatherForecast extends StatelessWidget {
           const Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              WeatherForcastItem(
+              WeatherForecastItem(
                 // DAY - 1
                 temp: "12",
                 icon: Icons.cloud,
                 date: 1686079034,
               ),
-              WeatherForcastItem(
+              WeatherForecastItem(
                 // DAY - 2
                 temp: "12",
                 icon: Icons.cloud,
                 date: 1686079034,
               ),
-              WeatherForcastItem(
+              WeatherForecastItem(
                 // DAY - 3
                 temp: "12",
                 icon: Icons.cloud,
                 date: 1686079034,
               ),
-              WeatherForcastItem(
+              WeatherForecastItem(
                 // DAY - 4
                 temp: "12",
                 icon: Icons.cloud,
@@ -59,12 +59,12 @@ class WeatherForecast extends StatelessWidget {
   }
 }
 
-class WeatherForcastItem extends StatelessWidget {
+class WeatherForecastItem extends StatelessWidget {
   final String temp;
   final IconData icon;
   final int date;
 
-  const WeatherForcastItem(
+  const WeatherForecastItem(
       {super.key, required this.temp, required this.icon, required this.date});
 
   @override
