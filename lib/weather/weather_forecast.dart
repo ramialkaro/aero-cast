@@ -17,7 +17,7 @@ class WeatherForecast extends StatelessWidget {
             width: 12,
           ),
           Text(
-            AppLocalizations.of(context)!.forecast,
+            AppLocalizations.of(context).forecast,
             style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
           ),
           const SizedBox(

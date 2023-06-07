@@ -29,7 +29,7 @@ class WaetherSummary extends StatelessWidget {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                AppLocalizations.of(context)!.dailySummary,
+                AppLocalizations.of(context).dailySummary,
                 style:
                     const TextStyle(fontSize: 26, fontWeight: FontWeight.w600),
               ),
@@ -38,7 +38,7 @@ class WaetherSummary extends StatelessWidget {
               height: 5,
             ),
             Text(
-              AppLocalizations.of(context)!
+              AppLocalizations.of(context)
                   .temperatureText(feelsLike, temp, tempMax, tempMin),
               style: const TextStyle(
                 fontSize: 16,

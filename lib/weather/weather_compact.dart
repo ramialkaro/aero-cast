@@ -36,15 +36,15 @@ class _WeatherCompactState extends State<WeatherCompact> {
             WeatherCompactItemInfo(
                 icon: Icons.waves,
                 value: "${widget.windSpeed} m/s",
-                title: AppLocalizations.of(context)!.wind),
+                title: AppLocalizations.of(context).wind),
             WeatherCompactItemInfo(
                 icon: Icons.water_drop_outlined,
                 value: "${widget.humidity} %",
-                title: AppLocalizations.of(context)!.humidity),
+                title: AppLocalizations.of(context).humidity),
             WeatherCompactItemInfo(
                 icon: Icons.remove_red_eye_outlined,
                 value: "${widget.visibility / 1000}km",
-                title: AppLocalizations.of(context)!.visibility),
+                title: AppLocalizations.of(context).visibility),
           ],
         ),
       ),
