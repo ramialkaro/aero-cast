@@ -1,7 +1,7 @@
 {
   "appTitle": "Aero Cast",
   "dailySummary": "Daily summary",
-  "forcast": "Forcast",
+  "forecast": "Forecast",
   "background": "Background",
   "wind": "Wind",
   "humidity":"Humidity",

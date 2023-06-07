@@ -1,7 +1,7 @@
 {
   "appTitle": "Aero Cast",
   "dailySummary": "Päivittäinen yhteenveto",
-  "forcast": "Ennuste",
+  "forecast": "Ennuste",
   "background": "Tausta",
   "wind": "Tuuli",
   "humidity": "Kosteus",

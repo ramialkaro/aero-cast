@@ -1,7 +1,7 @@
 {
   "appTitle": "Aero Cast",
   "dailySummary": "Resumen diario",
-  "forcast": "Pronosticar",
+  "forecast": "Pronosticar",
   "background": "Fondo",
   "wind": "Viento",
   "humidity": "Humedad",

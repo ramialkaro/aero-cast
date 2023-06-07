@@ -1,4 +1,4 @@
-import 'package:aerocast/weather/weather_forcast.dart';
+import 'package:aerocast/weather/weather_forecast.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -65,7 +65,7 @@ class MainView extends StatelessWidget {
               humidity: 45,
               visibility: 4,
             ),
-            WeatherForcast(),
+            WeatherForecast(),
           ],
         ),
       ),

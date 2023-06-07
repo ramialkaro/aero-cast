@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class WeatherForcast extends StatelessWidget {
-  const WeatherForcast({Key? key}) : super(key: key);
+class WeatherForecast extends StatelessWidget {
+  const WeatherForecast({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class WeatherForcast extends StatelessWidget {
             width: 12,
           ),
           Text(
-            AppLocalizations.of(context)!.forcast,
+            AppLocalizations.of(context)!.forecast,
             style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
           ),
           const SizedBox(
