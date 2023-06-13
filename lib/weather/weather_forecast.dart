@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import '../models/weather_model.dart';
+import '../utils/icon_checker.dart';
+
 class WeatherForecast extends StatelessWidget {
-  const WeatherForecast({Key? key}) : super(key: key);
+  const WeatherForecast({Key? key, required this.forecast}) : super(key: key);
+
+  final List<Day> forecast;
 
   @override
   Widget build(BuildContext context) {
@@ -24,33 +29,33 @@ class WeatherForecast extends StatelessWidget {
             height: 12,
             width: 12,
           ),
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               WeatherForecastItem(
-                // DAY - 1
-                temp: "12",
-                icon: Icons.cloud,
-                date: 1686079034,
-              ),
+                  // DAY - 1
+                  temp: forecast.elementAt(5).main.temp.toStringAsFixed(0),
+                  icon:
+                      getWeatherIcon(forecast.elementAt(5).weather.first.main),
+                  date: forecast.elementAt(5).dt),
               WeatherForecastItem(
-                // DAY - 2
-                temp: "12",
-                icon: Icons.cloud,
-                date: 1686079034,
-              ),
+                  // DAY - 2
+                  temp: forecast.elementAt(13).main.temp.toStringAsFixed(0),
+                  icon:
+                      getWeatherIcon(forecast.elementAt(13).weather.first.main),
+                  date: forecast.elementAt(13).dt),
               WeatherForecastItem(
-                // DAY - 3
-                temp: "12",
-                icon: Icons.cloud,
-                date: 1686079034,
-              ),
+                  // DAY - 3
+                  temp: forecast.elementAt(21).main.temp.toStringAsFixed(0),
+                  icon:
+                      getWeatherIcon(forecast.elementAt(21).weather.first.main),
+                  date: forecast.elementAt(21).dt),
               WeatherForecastItem(
-                // DAY - 4
-                temp: "12",
-                icon: Icons.cloud,
-                date: 1686079034,
-              ),
+                  // DAY - 4
+                  temp: forecast.elementAt(29).main.temp.toStringAsFixed(0),
+                  icon:
+                      getWeatherIcon(forecast.elementAt(21).weather.first.main),
+                  date: forecast.elementAt(29).dt),
             ],
           ),
         ],
