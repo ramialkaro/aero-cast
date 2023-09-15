@@ -3,7 +3,7 @@
 Aerocast is a weather app that provides real-time weather information for locations around the world. With Aerocast, you can easily check the current weather conditions, temperature, and forecasts for your desired locations.
 
 Youtube link: 
- - PART 1 [Aerocast Weather App | LAYOUT](https://youtu.be/pP1tn-y_-zQ)
+ - PART 1 [Aerocast Weather App | LAYOUT](https://youtu.be/lb3EH6LlgEo)
  - PART 2 [Aerocast Weather App | FETCH data](https://youtu.be/1dE00cp6G98)
 
 ## Features
