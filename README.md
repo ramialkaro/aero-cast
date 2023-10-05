@@ -1,3 +1,6 @@
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rami.alkaro)
+
+
 # Aerocast Weather App
 
 Aerocast is a weather app that provides real-time weather information for locations around the world. With Aerocast, you can easily check the current weather conditions, temperature, and forecasts for your desired locations.
